@@ -1,0 +1,35 @@
+---
+title: "Bienvenido al Tuto de Docker"
+subtitle: "Guía completa para aprender desde cero"
+author: "Mr. Tuto"
+date: "2025-01-20"
+categories: ["Docker", "Tuto Entero"]
+lang: es
+format: 
+  html:
+    page-navigation:
+    prev: 
+        href: index.qmd
+        text: "Página Anterior"
+    next: 
+        href: 01-virtualizacion.qmd
+        text: "Página Siguiente"
+---
+
+
+## Descripción del Curso
+
+El primer tuto que tienes a tu disposición es sobre **Docker**, en el aprenderás a crear imágenes, correr contenedores y orquestarlos con docker-compose. Si no sabes nada de la contenerización aquí aprenderás lo esencial para utilizarla en tus proyectos y si ya tienes conocimientos sobre esta tecnología, este curso te ayudará a consolidar sus principales conceptos.
+
+<a href="01-virtualizacion.qmd" class="btn btn-primary">Siguiente</a>
+<!-- ## Objetivos
+
+1. Dominar los conceptos básicos de programación
+2. Desarrollar habilidades de resolución de problemas
+3. Crear proyectos reales desde cero
+
+## Requisitos Previos
+
+- Conocimientos básicos de computación
+- Interés en aprender programación
+- Computadora con acceso a internet -->

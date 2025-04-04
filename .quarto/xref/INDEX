@@ -1,0 +1,50 @@
+{
+  "index.qmd": {
+    "index.html": "d83fd26e"
+  },
+  "about.qmd": {
+    "about.html": "6e81c05e"
+  },
+  "blog.qmd": {
+    "blog.html": "01d1b4a0"
+  },
+  "tuto_entero/docker.qmd": {
+    "docker.html": "59a60c5f"
+  },
+  "tuto_entero/docker/01-virtualizacion.qmd": {
+    "01-virtualizacion.html": "c39426c6"
+  },
+  "tuto_entero/docker/index.qmd": {
+    "index.html": "f6806aee"
+  },
+  "tuto_entero/docker/02-contenedores.qmd": {
+    "02-contenedores.html": "68943a5d"
+  },
+  "tuto_entero/docker/03-instalacion.qmd": {
+    "03-instalacion.html": "f09dbc36"
+  },
+  "tuto_entero/docker/04-primer-container.qmd": {
+    "04-primer-container.html": "38b4e8cf"
+  },
+  "tuto_entero/docker/05-conceptos-basicos.qmd": {
+    "05-conceptos-basicos.html": "5b84b6d5"
+  },
+  "tuto_entero/docker/06-excalidraw.qmd": {
+    "06-excalidraw.html": "a321e5f0"
+  },
+  "tuto_entero/docker/07-variables-volumenes.qmd": {
+    "07-variables-volumenes.html": "e89d00c6"
+  },
+  "tuto_entero/docker/08-dockercompose.qmd": {
+    "08-dockercompose.html": "8a1a44ea"
+  },
+  "tuto_entero/docker/termino.qmd": {
+    "termino.html": "65592c20"
+  },
+  "tutos.qmd": {
+    "tutos.html": "4cf5510a"
+  },
+  "404.qmd": {
+    "404.html": "e4b4083d"
+  }
+}

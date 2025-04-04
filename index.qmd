@@ -1,0 +1,79 @@
+---
+title: "Bienvenidos"
+page-layout: full
+css: styles.css
+---
+
+::: {.hero-banner}
+# Aprende a tu ritmo, elige entre un Tuto Corto o un Tuto Entero 🤤
+
+Descubre una nueva forma de aprendizaje con cursos concisos y prácticos creados para maximizar tu tiempo y conocimiento.
+
+[Explorar los tutos](/tutos.qmd){.btn .btn-primary .btn-lg}
+
+:::
+
+## Últimos Tutos {.mt-5}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.curso-card}
+![](./images/docker.png)
+
+<!-- ### Introducción a Quarto
+
+Aprende los fundamentos de Quarto para crear publicaciones científicas interactivas y sitios web.
+
+[Ver Tuto →]{.btn .btn-outline-primary .mt-2}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.curso-card}
+![](https://via.placeholder.com/400x180) -->
+
+### Docker
+
+Aprende las bases de Docker para que puedas contenerizar tus apps.
+
+<a href="/tuto_entero/docker/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
+:::
+:::
+
+<!-- ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.curso-card} -->
+<!-- ![](https://via.placeholder.com/400x180) -->
+
+<!-- ### Python para Ciencia de Datos
+
+Las herramientas básicas de Python que todo científico de datos debe conocer.
+
+[Ver Tuto →]{.btn .btn-outline-primary .mt-2} -->
+<!-- :::
+:::
+::: -->
+
+<!-- ## Últimos Posts en el Blog {.mt-5}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+::: {.feature-box}
+## Contenido conciso
+Cursos diseñados para ir directo al grano sin perder profundidad.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.feature-box}
+## Material interactivo
+Aprende haciendo con ejemplos y ejercicios prácticos.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.feature-box}
+## Siempre actualizado
+Contenido revisado y actualizado regularmente.
+:::
+:::
+::: -->

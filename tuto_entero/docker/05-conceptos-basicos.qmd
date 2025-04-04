@@ -1,0 +1,106 @@
+---
+title: "5. Los Conceptos Básicos de los Contenedores 👀"
+lang: es
+format: 
+  html:
+    page-navigation: true
+    code-fold: true
+---
+
+## Conceptos básicos de Docker
+
+Para entender cómo funciona Docker y aprovechar sus capacidades, es importante familiarizarse con algunos conceptos clave. A continuación, explicaremos los elementos esenciales que componen esta tecnología.
+
+### Contenedor
+
+Un contenedor es una instancia en ejecución de una imagen. Es como una cápsula autosuficiente diseñada para ejecutar una aplicación de manera predecible y uniforme, sin importar el entorno donde se encuentre. Siguiendo con la analogía del traje espacial 👩‍🚀, el contenedor encapsula la aplicación junto con todas sus dependencias en un entorno aislado.
+
+En términos técnicos, un contenedor es un proceso que se ejecuta en este entorno aislado. Los contenedores tienen un comando principal que los controla, definido mediante las instrucciones CMD o ENTRYPOINT en el Dockerfile. Esto significa que un contenedor puede:
+
+* Ejecutar una tarea específica y finalizar, como procesar un archivo o ejecutar un script.
+* Mantenerse en ejecución indefinidamente, por ejemplo, para ejecutar un servidor web.
+
+Es importante destacar que los contenedores no son permanentes. Si un contenedor se elimina, **la imagen de la cual fue creado permanece intacta**, lo que permite iniciar otro contenedor idéntico en cualquier momento.
+
+### Imagen
+Una imagen es como el plano o la receta de un contenedor. Es un archivo inmutable que contiene todo lo necesario para ejecutar una aplicación: desde el sistema de archivos hasta las configuraciones necesarias.
+
+Las imágenes se crean a partir de un **Dockerfile**, que actúa como una plantilla para construirlas. Este archivo define:
+
+* La aplicación que se desea ejecutar.
+* Las librerías del lenguaje necesarias para su funcionamiento (como Python, Node.js o Java).
+* Las librerías del sistema operativo requeridas.
+* Configuraciones específicas, como los comandos de arranque (CMD o ENTRYPOINT), puertos que se deben exponer y directorios de trabajo.
+
+Una vez construida la imagen, esta puede ser reutilizada para crear múltiples contenedores, lo que garantiza consistencia en los entornos de desarrollo, pruebas y producción.
+
+
+### Dockerfile
+
+El ```Dockerfile``` es un archivo que actúa como una receta para construir imágenes en Docker. Contiene un conjunto de instrucciones secuenciales que le indican a Docker cómo preparar un entorno, desde instalar dependencias hasta copiar archivos o configurar variables de entorno.
+
+Es una herramienta poderosa porque permite codificar todo el proceso de configuración del entorno como texto, asegurando que pueda ser replicado fácilmente en cualquier momento y en cualquier lugar.
+
+**Estructura básica de un Dockerfile**
+
+Los **Dockerfile** suelen comenzar con una instrucción ```FROM```, que define la imagen base que se utilizará. A partir de ahí, se agregan las instrucciones necesarias para personalizar esa imagen base según las necesidades de la aplicación. Entre las instrucciones más comunes se encuentran:
+
+* ```RUN```: Ejecuta comandos para instalar dependencias o realizar configuraciones.
+* ```COPY``` o ```ADD```: Copian archivos desde el host al contenedor.
+* ```ENV```: Define variables de entorno.
+* ```CMD``` o ```ENTRYPOINT```: Especifican el comando que se ejecutará al iniciar el contenedor.
+
+**Ejemplo práctico**
+
+Supongamos que queremos construir una imagen que sirva una página web con un servidor Apache. Este sería el Dockerfile correspondiente:
+
+```dockerfile
+# Usamos Ubuntu 22.04 como base
+FROM ubuntu:22.04  
+
+# Actualizamos paquetes e instalamos Apache
+RUN apt-get update && apt-get install -y apache2  
+
+# Copiamos el archivo de nuestra web estática al directorio de Apache
+COPY index.html /var/www/html/  
+
+# Arrancamos el servidor Apache en primer plano
+CMD ["apache2ctl", "-D", "FOREGROUND"]
+```
+
+**Desglose del ejemplo**
+
+1. ```FROM ubuntu:22.04```
+Define que la imagen base será Ubuntu 22.04. Esta es la base sobre la que construiremos todo lo demás.
+
+
+2. ```RUN apt-get update && apt-get install -y apache2```
+Actualizamos los paquetes de la distribución e instalamos Apache con sus dependencias. Este comando equivale a escribir estas instrucciones en un terminal de Ubuntu.
+
+
+3. ```COPY index.html /var/www/html/```
+ Copiamos un archivo local llamado index.html al directorio donde Apache sirve los archivos web.
+
+
+4. ```CMD ["apache2ctl", "-D", "FOREGROUND"]```
+ Definimos el comando que se ejecutará cuando el contenedor arranque: iniciar el servidor Apache en modo primer plano (FOREGROUND).
+
+
+**Ventajas del Dockerfile**
+
+* Replicabilidad: Todo el proceso está codificado, lo que asegura que cualquiera pueda generar la misma imagen siguiendo el mismo Dockerfile.
+* Portabilidad: Puedes construir la misma imagen en cualquier sistema que soporte Docker.
+* Automatización: Permite automatizar la configuración de entornos, reduciendo errores humanos.
+
+En resumen, un Dockerfile es como escribir los pasos que seguiríamos manualmente en un sistema operativo, pero los documentamos como código para que puedan ser ejecutados automáticamente por Docker. Esto no solo facilita el trabajo en equipo, sino que también garantiza entornos consistentes. 🚀
+
+### Docker Hub
+
+**Docker Hub** es como el **mercado central de Docker**, donde se almacenan y comparten imágenes de contenedores. Es un repositorio en línea donde puedes encontrar imágenes oficiales creadas por empresas como Python, Nginx o PostgreSQL, además de imágenes comunitarias para múltiples propósitos.
+Si necesitas una base para tus proyectos, como un contenedor con Node.js o una base de datos MySQL, Docker Hub será tu mejor aliado. También puedes subir tus propias imágenes para compartirlas con tu equipo o con la comunidad. Solo necesitas una cuenta para empezar a usar este recurso.
+
+
+Ahora que conoces qué son los contenedores, imágenes, Dockerfile y Docker Hub, puedes entender cómo estos elementos trabajan juntos para construir entornos de desarrollo eficientes, portables y escalables. 🚀
+
+<a href="04-primer-container.qmd" class="btn btn-primary">Anterior</a>
+<a href="06-excalidraw.qmd" class="btn btn-primary">Siguiente</a>

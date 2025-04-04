@@ -1,0 +1,12 @@
+{
+  "hash": "8ecf6c1468025a96a0b22dd6c611eaf1",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"TUTO\"\n---\n\n::: {#6645433d .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Generar datos aleatorios\nx = np.random.rand(50)\ny = np.random.rand(50)\n\n# Crear gráfico de dispersión\nplt.scatter(x, y)\n\n# Añadir títulos y etiquetas\nplt.title('Gráfico de Dispersión con Datos Aleatorios')\nplt.xlabel('Eje X')\nplt.ylabel('Eje Y')\n\n# Mostrar el gráfico\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

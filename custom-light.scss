@@ -1,0 +1,82 @@
+$color-navbar-bg: #ffffff;       // Fondo de la navbar
+$color-navbar-fg: #18181b;       // Color base del texto
+$color-navbar-hover: #4f46e5;    // Color al hacer hover
+$color-navbar-active: #4338ca;   // Color para el enlace activo
+$navbar-border-color: #e5e7eb;   // Color del borde inferior
+
+// Aplicación a la navbar
+.navbar {
+  background-color: $color-navbar-bg;
+  border-bottom: 1px solid $navbar-border-color;
+}
+
+.navbar-nav .nav-link {
+  color: $color-navbar-fg;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+  
+  &:hover {
+    color: $color-navbar-hover;
+  }
+  
+  &:active, &.active {
+    color: $color-navbar-active;
+  }
+}
+
+
+/*-- scss:rules --*/
+// Estilos para tarjetas de cursos
+.curso-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+  
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+}
+
+// Estilos para títulos de sección
+h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba($primary, 0.2);
+  margin-top: 2rem;
+}
+
+// Personalización de la barra de navegación
+.navbar {
+  font-family: $headings-font-family;
+  font-weight: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+// Personalización de bloques de código
+pre {
+  border-left: 4px solid $primary;
+  background-color: rgba($light, 0.5);
+}
+
+// Botones personalizados
+.btn-primary {
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+}
+
+// Estilo para tablas
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

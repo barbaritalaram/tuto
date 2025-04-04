@@ -1,0 +1,106 @@
+* Estilos para la sección hero-banner */
+.hero-banner {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #0066cc 0%, #1a8cff 100%);
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(14, 10, 49);
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Estilos para cajas de características */
+.feature-box {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  height: 100%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box h2 {
+  font-size: 1.5rem;
+  color: #0066cc;
+  margin-top: 0;
+  border-bottom: none;
+}
+
+/* Estilos para lecciones */
+.leccion {
+  border-left: 4px solid #0066cc;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.leccion h3 {
+  color: #0066cc;
+  font-weight: 500;
+}
+
+/* Personalización de la página de curso */
+.curso-header {
+  background-color: #eef5ff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.curso-header h1 {
+  color: #0066cc;
+  margin-bottom: 1rem;
+}
+
+/* Indicador de progreso */
+.progress-indicator {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #0066cc;
+  border-radius: 4px;
+}
+
+/* Estilo para bloques de nota */
+.callout-note {
+  border-left-color: #0066cc;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-banner h1 {
+    font-size: 2rem;
+  }
+}
+
+.curso-card {
+  border: 1px solid #ddd; /* Gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05); /* Sombra ligera opcional */
+}
