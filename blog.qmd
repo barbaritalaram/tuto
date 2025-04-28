@@ -1,5 +1,0 @@
----
-title: "Bienvenidos"
-page-layout: full
-css: styles.css
----
