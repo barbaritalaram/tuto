@@ -5,7 +5,7 @@ css: styles.css
 ---
 
 ::: {.hero-banner}
-# Aprende a tu ritmo, elige entre un Tuto Corto o un Tuto Entero 🤤
+# Aprende a tu ritmo, elige entre un Tuto o un Tuto Entero 🤤
 
 Descubre una nueva forma de aprendizaje con cursos concisos y prácticos creados para maximizar tu tiempo y conocimiento.
 
