@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://barbaritalaram.github.io/tuto/tutos.html</loc>
-    <lastmod>2025-05-14T14:57:52.065Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/04-primer-container.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/08-dockercompose.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/05-conceptos-basicos.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/01-virtualizacion.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/02-contenedores.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
+    <loc>https://barbaritalaram.github.io/tuto/blog.html</loc>
+    <lastmod>2025-06-16T12:29:57.645Z</lastmod>
   </url>
   <url>
     <loc>https://barbaritalaram.github.io/tuto/index.html</loc>
-    <lastmod>2025-05-14T14:57:52.019Z</lastmod>
+    <lastmod>2025-06-16T12:29:57.646Z</lastmod>
   </url>
   <url>
-    <loc>https://barbaritalaram.github.io/tuto/about.html</loc>
-    <lastmod>2025-05-14T14:57:52.018Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/03-instalacion.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/07-variables-volumenes.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/05-conceptos-basicos.html</loc>
+    <lastmod>2025-06-16T12:29:57.647Z</lastmod>
   </url>
   <url>
     <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/index.html</loc>
-    <lastmod>2025-05-14T14:57:52.065Z</lastmod>
+    <lastmod>2025-06-16T12:29:57.692Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/01-virtualizacion.html</loc>
+    <lastmod>2025-06-16T12:29:57.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/03-instalacion.html</loc>
+    <lastmod>2025-06-16T12:29:57.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/07-variables-volumenes.html</loc>
+    <lastmod>2025-06-16T12:29:57.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tutos.html</loc>
+    <lastmod>2025-06-16T12:29:57.692Z</lastmod>
   </url>
   <url>
     <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/06-excalidraw.html</loc>
-    <lastmod>2025-05-14T14:57:52.020Z</lastmod>
+    <lastmod>2025-06-16T12:29:57.647Z</lastmod>
   </url>
   <url>
     <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/termino.html</loc>
-    <lastmod>2025-05-14T14:57:52.065Z</lastmod>
+    <lastmod>2025-06-16T12:29:57.692Z</lastmod>
   </url>
   <url>
-    <loc>https://barbaritalaram.github.io/tuto/blog.html</loc>
-    <lastmod>2025-05-14T14:57:52.018Z</lastmod>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/02-contenedores.html</loc>
+    <lastmod>2025-06-16T12:29:57.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/08-dockercompose.html</loc>
+    <lastmod>2025-06-16T12:29:57.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/tuto_entero/docker/04-primer-container.html</loc>
+    <lastmod>2025-06-16T12:29:57.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://barbaritalaram.github.io/tuto/about.html</loc>
+    <lastmod>2025-06-16T12:29:57.645Z</lastmod>
   </url>
 </urlset>
