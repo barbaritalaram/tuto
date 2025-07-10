@@ -1,9 +1,6 @@
 {
   "listingMap": {
     "tutos.qmd": [
-      "cursos",
-      "tuto_corto",
-      "tuto_entero",
       "tuto_corto/*/index.qmd",
       "tuto_entero/*/index.qmd"
     ]

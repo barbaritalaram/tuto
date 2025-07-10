@@ -46,5 +46,14 @@
   },
   "404.qmd": {
     "404.html": "e4b4083d"
+  },
+  "tuto_entero/AI-Companion/index.qmd": {
+    "index.html": "49dc2631"
+  },
+  "tuto_entero/AI-Companion/01-introduccion.qmd": {
+    "01-introduccion.html": "56a30788"
+  },
+  "tuto_entero/AI-Companion/termino.qmd": {
+    "termino.html": "890fb7ad"
   }
 }
