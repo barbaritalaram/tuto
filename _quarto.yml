@@ -20,6 +20,9 @@ website:
         menu:
           - text: "Docker"
             file: tuto_entero/docker/index.qmd
+          - text: "AI Companion"
+            file: tuto_entero/AI-Companion/index.qmd
+
 
   page-footer:
     center: 

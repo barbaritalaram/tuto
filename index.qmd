@@ -39,6 +39,13 @@ Aprende las bases de Docker para que puedas contenerizar tus apps.
 <a href="/tuto_entero/docker/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
 :::
 :::
+### AI Companion
+
+Aprende a crear un asistente de IA personalizado usando n8n y tecnologías modernas.
+
+<a href="/tuto_entero/AI-Companion/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
+:::
+:::
 
 <!-- ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.curso-card} -->
