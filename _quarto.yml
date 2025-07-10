@@ -14,7 +14,7 @@ website:
         file: index.qmd
       - text: "Blog"
         file: blog.qmd
-      - text: "Tuto Corto <img src='/images/tuto_corto.png' style='vertical-align:middle; margin-right:5px;' width='20' height='20'>"
+      - text: "Tuto <img src='/images/tuto_corto.png' style='vertical-align:middle; margin-right:5px;' width='20' height='20'>"
         file: "#"
       - text: "Tuto Entero <img src='/images/tuto_entero.png' style='vertical-align:middle; margin-right:5px;' width='20' height='20'>"
         menu:

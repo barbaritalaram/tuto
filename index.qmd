@@ -20,18 +20,6 @@ Descubre una nueva forma de aprendizaje con cursos concisos y prácticos creados
 ::: {.curso-card}
 ![](./images/docker.png)
 
-<!-- ### Introducción a Quarto
-
-Aprende los fundamentos de Quarto para crear publicaciones científicas interactivas y sitios web.
-
-[Ver Tuto →]{.btn .btn-outline-primary .mt-2}
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.curso-card}
-![](https://via.placeholder.com/400x180) -->
-
 ### Docker
 
 Aprende las bases de Docker para que puedas contenerizar tus apps.
@@ -39,6 +27,11 @@ Aprende las bases de Docker para que puedas contenerizar tus apps.
 <a href="/tuto_entero/docker/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
 :::
 :::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.curso-card}
+![](./images/AiCompanion.png)
+
 ### AI Companion
 
 Aprende a crear un asistente de IA personalizado usando n8n y tecnologías modernas.
@@ -46,19 +39,7 @@ Aprende a crear un asistente de IA personalizado usando n8n y tecnologías moder
 <a href="/tuto_entero/AI-Companion/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
 :::
 :::
-
-<!-- ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.curso-card} -->
-<!-- ![](https://via.placeholder.com/400x180) -->
-
-<!-- ### Python para Ciencia de Datos
-
-Las herramientas básicas de Python que todo científico de datos debe conocer.
-
-[Ver Tuto →]{.btn .btn-outline-primary .mt-2} -->
-<!-- :::
 :::
-::: -->
 
 <!-- ## Últimos Posts en el Blog {.mt-5}
 
