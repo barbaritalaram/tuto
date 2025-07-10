@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9. No es un Adiós es un Hasta Pronto 👋 – TUTO</title>
+<title>1. Introducción – TUTO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,15 +127,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#introduccion" id="toc-introduccion" class="nav-link active" data-scroll-target="#introduccion">Introduccion</a></li>
+  <li><a href="#qué-es-un-ai-companion" id="toc-qué-es-un-ai-companion" class="nav-link" data-scroll-target="#qué-es-un-ai-companion">¿Qué es un AI Companion? 🤖</a>
+  <ul class="collapse">
+  <li><a href="#casos-de-uso-reales-y-posibles-aplicaciones" id="toc-casos-de-uso-reales-y-posibles-aplicaciones" class="nav-link" data-scroll-target="#casos-de-uso-reales-y-posibles-aplicaciones">Casos de uso reales y posibles aplicaciones</a></li>
+  </ul></li>
+  <li><a href="#arquitectura-general-del-proyecto" id="toc-arquitectura-general-del-proyecto" class="nav-link" data-scroll-target="#arquitectura-general-del-proyecto">Arquitectura general del proyecto</a></li>
+  <li><a href="#herramientas-esencailes-y-por-que-las-elegimos" id="toc-herramientas-esencailes-y-por-que-las-elegimos" class="nav-link" data-scroll-target="#herramientas-esencailes-y-por-que-las-elegimos">Herramientas esencailes y por que las elegimos:</a></li>
+  <li><a href="#instalaciones-y-cuentas-necesarias-n8n-supabase-bot-de-telegram-etc." id="toc-instalaciones-y-cuentas-necesarias-n8n-supabase-bot-de-telegram-etc." class="nav-link" data-scroll-target="#instalaciones-y-cuentas-necesarias-n8n-supabase-bot-de-telegram-etc.">Instalaciones y cuentas necesarias (n8n, Supabase, Bot de Telegram, etc.)</a>
+  <ul class="collapse">
+  <li><a href="#virtualicemos" id="toc-virtualicemos" class="nav-link" data-scroll-target="#virtualicemos">Virtualicemos</a>
+  <ul class="collapse">
+  <li><a href="#máquina-virtual" id="toc-máquina-virtual" class="nav-link" data-scroll-target="#máquina-virtual">Máquina Virtual</a></li>
+  <li><a href="#hypervisor" id="toc-hypervisor" class="nav-link" data-scroll-target="#hypervisor">Hypervisor</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">9. No es un Adiós es un Hasta Pronto 👋</h1>
+<h1 class="title">1. Introducción</h1>
 </div>
 
 
@@ -152,11 +172,117 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Por el momento aquí terminamos, esperamos que hayas aprendido y puedas utilizar esta tecnología. Iremos actualizando el tutorial cuando corresponda y reparando errores para poder mejorar este proyecto. No te desanimes y sigue adelante que eres genial en esto 😊. Si algo no te va, recuerda buscar en <a href="https://stackoverflow.com/">stackoverflow</a>, leer la <a href="https://docs.docker.com/?_gl=1*scpqca*_gcl_au*ODc1OTAxNjMyLjE3MzQ3MTczNTc.*_ga*NzU4ODY0NjguMTczNDcxNzM1Nw..*_ga_XJWPQMJYHQ*MTczNTUxMzUxNy42LjEuMTczNTUxMzUyMS41Ni4wLjA.">documentación</a>, o preguntarle a ChatGPT.</p>
-<p>Chau!</p>
-<p><a href="../../tuto_entero/docker/08-dockercompose.html" class="btn btn-primary">Anterior</a> <a href="../../index.html" class="btn btn-primary">Siguiente</a></p>
+<section id="introduccion" class="level1">
+<h1>Introduccion</h1>
+<p>La inteligencia artificial (IA) ya no es cosa del futuro —hoy está presente en casi todo: desde asistentes de voz en tu celular 📱 hasta sistemas que gestionan empresas enteras 🏢. En este curso vamos a explorar una herramienta poderosa y cada vez más común: el AI Companion 🤖. A diferencia de un simple chatbot, un AI Companion puede conversar de forma más natural, recordar información, adaptarse a cada usuario y ayudarte en tareas reales, en tiempo real. Aprenderás a construir el tuyo usando herramientas como n8n, Supabase, Telegram y modelos de IA como ChatGPT 🧠. Todo de forma práctica, sin necesidad de ser experto en programación, siempre considerando los retos éticos y técnicos que vienen con esta tecnología.</p>
+<p>Prepárate para crear un asistente que potencie tus ideas y te acompañe en el día a día 🚀.</p>
+</section>
+<section id="qué-es-un-ai-companion" class="level1">
+<h1>¿Qué es un AI Companion? 🤖</h1>
+<p>La idea de aprender a crear un AI Companion, viene de poder entregar una herramienta concreta para fortaceler tu trabajo o el trabajo de alguien que no tiene o conoce herramientas para fortalecer o mejorar su propuesta de valor.</p>
+<p>En palabras simples, un Un AI Companion es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.</p>
+<blockquote class="blockquote">
+<p><em>“Un AI Companion se define como un asistente inteligente avanzado y un aliado digital, diseñado para optimizar las interacciones y proporcionar soporte activo, permitiendo a los usuarios enfocarse en tareas más importantes.”</em> Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa. Un ejemplo prominente de esta categoría es el “AI Companion” de Zoom, una apuesta por revolucionar la comunicación digital a través de un asistente inteligente que aporta claridad y eficiencia a las reuniones.<br>
+Aunque “AI Companion” puede ser una marca específica, el término se utiliza de manera más amplia para describir una categoría de asistentes de IA altamente sofisticados que actúan como aliados digitales, facilitando tanto la vida personal como la profesional. La verdadera revolución de un AI Companion radica en su capacidad para entender contextos y brindar información precisa, aprendiendo con cada interacción.</p>
+</blockquote>
+<section id="casos-de-uso-reales-y-posibles-aplicaciones" class="level2">
+<h2 class="anchored" data-anchor-id="casos-de-uso-reales-y-posibles-aplicaciones">Casos de uso reales y posibles aplicaciones</h2>
+<ul>
+<li>Atención al cliente 24/7.</li>
+<li>Tutor académico personalizado.</li>
+<li>Bot de agenda y recordatorios.</li>
+<li>Concierge de viajes, etc.</li>
+</ul>
+<p>Para poder aprender como acercarnos al concepto de AI Companion, buscaremos un proyecto aplicado con herramientas de facil uso y te ensenare paso a paso a usarlas.</p>
+</section>
+</section>
+<section id="arquitectura-general-del-proyecto" class="level1">
+<h1>Arquitectura general del proyecto</h1>
+<p>Telegram ⇄ n8n (flujos) ⇄ Supabase (BD) ⇄ OpenAI/API externas</p>
+<ul>
+<li><strong>Telegram</strong>: canal de interacción en tiempo real.</li>
+<li><strong>n8n</strong>: orquestador visual que recibe mensajes, decide y responde.</li>
+<li><strong>Supabase</strong>: base de datos Postgres + API REST + autenticación.</li>
+<li><strong>OpenAI / APIs externas</strong>: motor de IA y enriquecimiento de datos.</li>
+</ul>
+</section>
+<section id="herramientas-esencailes-y-por-que-las-elegimos" class="level1">
+<h1>Herramientas esencailes y por que las elegimos:</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 30%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Herramienta</th>
+<th>Rol en el proyecto</th>
+<th>Ventajas clave</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>n8n</strong> 🔗</td>
+<td>Automatización &amp; lógica</td>
+<td>Visual, código abierto, fácil de desplegar.</td>
+</tr>
+<tr class="even">
+<td><strong>Supabase</strong> 🗃️</td>
+<td>Persistencia de datos</td>
+<td>Postgres gestionado, API instantánea, Auth.</td>
+</tr>
+<tr class="odd">
+<td><strong>Telegram</strong> 💬</td>
+<td>Interfaz de usuario</td>
+<td>Popular, sencillo y con buen SDK de bots.</td>
+</tr>
+<tr class="even">
+<td><strong>OpenAI / LLMs</strong> 🧠</td>
+<td>Generación de lenguaje</td>
+<td>Respuestas naturales, configurable por prompts.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="instalaciones-y-cuentas-necesarias-n8n-supabase-bot-de-telegram-etc." class="level1">
+<h1>Instalaciones y cuentas necesarias (n8n, Supabase, Bot de Telegram, etc.)</h1>
+<p>Antes de hablar de Docker hablemos de <strong>qué es la virtualización</strong>: Tal como señala AWS:</p>
+<blockquote class="blockquote">
+<p><em>“La virtualización es una tecnología para crear representaciones virtuales de servidores, almacenamiento, redes y otras máquinas físicas. El software virtual imita las funciones del hardware físico para ejecutar varías máquinas virtuales a la vez en una única máquina física”</em>.</p>
+</blockquote>
+<p>Ahora bien, <strong>por qué harías esta virtualización</strong>, cuál es su importancia. En palabras simples, <strong>sacarle provecho al hardware</strong>, al fierro, <strong>utilizarlo de manera flexible para que rinda de manera óptima</strong> para las tareas que se requieren.</p>
+<p>Imagina que en la empresa donde trabajas se necesitan tres servidores que se encarguen de las siguientes tareas:</p>
+<ul>
+<li>Almacenar los correos electrónicos de la empresa de forma segura</li>
+<li>Ejecutar una aplicación orientada a los clientes</li>
+<li>Ejecutar aplicaciones empresariales de uso interno</li>
+</ul>
+<p>Cada una de estas tareas tiene diferentes requisitos de configuración:</p>
+<ul>
+<li>Una necesita un sistema operativo Windows y gran capacidad de almacenamiento</li>
+<li>Otra requiere un entorno linux y capacidad gran capacidad de procesamiento</li>
+<li>Y la otra no exige tanto</li>
+</ul>
+<p>La solución rápida sería <strong>adquirir tres servidores físicos dedicados para cada aplicación</strong>. La empresa debería sacar la Visa y pagar esa elevada inversión en las 3 máquinas que por supuesto <strong>consumirían electricidad</strong> y necesitarían su respectivo <strong>mantenimiento</strong>. La empresa tendría esos 3 nuevos servidores, que le generarían costos 💵💵, pero <strong>solo utilizaría una fracción de las capacidades de las máquinas</strong>.</p>
+<section id="virtualicemos" class="level2">
+<h2 class="anchored" data-anchor-id="virtualicemos">Virtualicemos</h2>
+<p>Y aquí es donde entra la <strong>virtualización</strong> permitiendo un uso <strong>eficiente del hardware</strong>, <strong>en un solo servidor físico</strong>, la empresaria podría <strong>crear 3 máquinas virtuales</strong>, sí, tendría en una sola máquina física las tres máquinas que necesita para sus aplicaciones. Cada máquina virtual tendría la <strong>configuración que necesita, su propio sistema operativo,</strong> etc y la empresa donde trabajas se estaría <strong>ahorrando</strong> el adquirir dos máquinas más y los gastos relacionados a ellas.</p>
+<p>Como ya mencionamos a las máquinas virtuales ahora definamos qué son:</p>
+<section id="máquina-virtual" class="level3">
+<h3 class="anchored" data-anchor-id="máquina-virtual">Máquina Virtual</h3>
+<p>No es nada más ni nada menos que <strong>un equipo definido por software que se ejecuta en un equipo físico</strong> con un sistema operativo y recursos informáticos independientes. Tal como leíste, la máquina virtual es un computador creado con software dentro de un computador físico (tangible), a este último se le denomina <strong>máquina host (host machine)</strong>, la que proporciona recursos y la máquina o máquinas virtuales son las <strong>máquinas invitadas (guest machines)</strong>. Un host puede ejecutar varios guest, y estos, como ya se señaló, tienen su propio sistema operativo que puede ser el mismo o diferente del sistema operativo del host.</p>
+</section>
+<section id="hypervisor" class="level3">
+<h3 class="anchored" data-anchor-id="hypervisor">Hypervisor</h3>
+<p>En este punto debemos hablar del Hypervisor, que es el software de virtualización, es decir, es quien, instalado en la máquina física, actúa como intermediario entre el hardware o el sistema operativo de esta y las máquinas virtuales. Este hipervisor es quien coordina el acceso al entorno físico, de tal forma que varías máquinas virtuales tengan acceso a su propia cuota o porción de los recursos físicos del host.</p>
+<p>Con lo anterior ya sabemos los conceptos necesarios para seguir adelante, si tienes mayor curiosidad puedes profundizar más sobre los tipos de hipervisores y los tipos de virtualización existentes.</p>
+<p><a href="../../tuto_entero/AI-Companion/index.html" class="btn btn-primary">Anterior</a> <a href="02-contenedores.qmd" class="btn btn-primary">Siguiente</a></p>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
