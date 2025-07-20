@@ -17,14 +17,13 @@ Prepárate para crear un asistente que potencie tus ideas y te acompañe en el d
 
 # ¿Qué es un AI Companion? 🤖
 
+En palabras simples, un Un AI Companion es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.
+
 La idea de aprender a crear un AI Companion, viene de poder entregar una herramienta concreta para fortaceler tu trabajo o el trabajo de alguien que no tiene o conoce herramientas para fortalecer o mejorar su propuesta de valor.
 
-En palabras simples, un Un AI Companion es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.
 
 > *"Un AI Companion se define como un asistente inteligente avanzado y un aliado digital, diseñado para optimizar las interacciones y proporcionar soporte activo, permitiendo a los usuarios enfocarse en tareas más importantes."*
 Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa. Un ejemplo prominente de esta categoría es el "AI Companion" de Zoom, una apuesta por revolucionar la comunicación digital a través de un asistente inteligente que aporta claridad y eficiencia a las reuniones.   
-Aunque "AI Companion" puede ser una marca específica, el término se utiliza de manera más amplia para describir una categoría de asistentes de IA altamente sofisticados que actúan como aliados digitales, facilitando tanto la vida personal como la profesional. 
-La verdadera revolución de un AI Companion radica en su capacidad para entender contextos y brindar información precisa, aprendiendo con cada interacción.
 
 ## Casos de uso reales y posibles aplicaciones
 
@@ -44,7 +43,7 @@ Telegram ⇄ n8n (flujos) ⇄ Supabase (BD) ⇄ OpenAI/API externas
 - **Supabase**: base de datos Postgres + API REST + autenticación.
 - **OpenAI / APIs externas**: motor de IA y enriquecimiento de datos.
 
-# Herramientas esencailes y por que las elegimos: 
+# Herramientas esenciales y por qué las elegimos: 
 
 | Herramienta | Rol en el proyecto        | Ventajas clave                                  |
 |-------------|---------------------------|-------------------------------------------------|
@@ -56,42 +55,6 @@ Telegram ⇄ n8n (flujos) ⇄ Supabase (BD) ⇄ OpenAI/API externas
 # Instalaciones y cuentas necesarias (n8n, Supabase, Bot de Telegram, etc.)
 
 
-Antes de hablar de Docker hablemos de **qué es la virtualización**:
-Tal como señala AWS:
-
-> *“La virtualización es una tecnología para crear representaciones virtuales de servidores, almacenamiento, redes y otras máquinas físicas. El software virtual imita las funciones del hardware físico para ejecutar varías máquinas virtuales a la vez en una única máquina física”*.
-
-Ahora bien, **por qué harías esta virtualización**, cuál es su importancia. En palabras simples, **sacarle provecho al hardware**, al fierro, **utilizarlo de manera flexible para que rinda de manera óptima** para las tareas que se requieren. 
-
-Imagina que en la empresa donde trabajas se necesitan tres servidores que se encarguen de las siguientes tareas:
-
-* Almacenar los correos electrónicos de la empresa de forma segura
-* Ejecutar una aplicación orientada a los clientes
-* Ejecutar aplicaciones empresariales de uso interno
-
-Cada una de estas tareas tiene diferentes requisitos de configuración: 
-
-* Una necesita un sistema operativo Windows y gran capacidad de almacenamiento
-* Otra requiere un entorno linux y capacidad gran capacidad de procesamiento
-* Y la otra no exige tanto
-
-La solución rápida sería **adquirir tres servidores físicos dedicados para cada aplicación**. La empresa debería sacar la Visa y pagar esa elevada inversión en las 3 máquinas que por supuesto **consumirían electricidad** y necesitarían su respectivo **mantenimiento**. La empresa tendría esos 3 nuevos servidores, que le generarían costos 💵💵, pero **solo utilizaría una fracción de las capacidades de las máquinas**.
-
-## Virtualicemos 
-
-Y aquí es donde entra la **virtualización** permitiendo un uso **eficiente del hardware**, **en un solo servidor físico**, la empresaria podría **crear 3 máquinas virtuales**, sí, tendría en una sola máquina física las tres máquinas que necesita para sus aplicaciones. Cada máquina virtual tendría la **configuración que necesita, su propio sistema operativo,** etc y la empresa donde trabajas se estaría **ahorrando** el adquirir dos máquinas más y los gastos relacionados a ellas.
-
-Como ya mencionamos a las máquinas virtuales ahora definamos qué son: 
-
-### Máquina Virtual
-
-No es nada más ni nada menos que **un equipo definido por software que se ejecuta en un equipo físico** con un sistema operativo y recursos informáticos independientes. Tal como leíste, la máquina virtual es un computador creado con software dentro de un computador físico (tangible), a este último se le denomina **máquina host (host machine)**, la que proporciona recursos y la máquina o máquinas virtuales son las **máquinas invitadas  (guest machines)**. Un host puede ejecutar varios guest, y estos, como ya se señaló, tienen su propio sistema operativo que puede ser el mismo o diferente del sistema operativo del host.
-
-### Hypervisor
-
-En este punto debemos hablar del Hypervisor, que es el software de virtualización, es decir, es quien, instalado en la máquina física, actúa como intermediario entre el hardware o el sistema operativo de esta y las máquinas virtuales. Este hipervisor es quien coordina el acceso al entorno físico, de tal forma que varías máquinas virtuales tengan acceso a su propia cuota o porción de los recursos físicos del host. 
-
-Con lo anterior ya sabemos los conceptos necesarios para seguir adelante, si tienes mayor curiosidad puedes profundizar más sobre los tipos de hipervisores y los tipos de virtualización existentes.
 
 <a href="index.qmd" class="btn btn-primary">Anterior</a>
 <a href="02-contenedores.qmd" class="btn btn-primary">Siguiente</a>
