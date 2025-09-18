@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-234273d1456647dabc34a594ac50e507.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a6e161b2431e1f94a14e0f5d32135a3c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-874d1bfa320fb7f528aae4768aebe376.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9cc70410b8ee353640be0db64478bab4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,7 +56,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -81,7 +82,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo.png" alt="" class="navbar-logo">
+    <img src="../../images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">TUTO</span>
@@ -171,15 +173,15 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduccion" class="level1">
 <h1>Introduccion</h1>
-<p>La inteligencia artificial (IA) ya no es cosa del futuro —hoy está presente en casi todo: desde asistentes de voz en tu celular 📱 hasta sistemas que gestionan empresas enteras 🏢. En este curso vamos a explorar una herramienta poderosa y cada vez más común: el AI Companion 🤖. A diferencia de un simple chatbot, un AI Companion puede conversar de forma más natural, recordar información, adaptarse a cada usuario y ayudarte en tareas reales, en tiempo real. Aprenderás a construir el tuyo usando herramientas como n8n, Supabase, Telegram y modelos de IA como ChatGPT 🧠. Todo de forma práctica, sin necesidad de ser experto en programación, siempre considerando los retos éticos y técnicos que vienen con esta tecnología.</p>
+<p>La inteligencia artificial (IA) ya no es cosa del futuro —hoy está presente en casi todo: desde asistentes de voz en tu celular 📱 hasta sistemas que gestionan empresas enteras 🏢. En este tuto 🍗, vamos a explorar una herramienta poderosa y cada vez más común: el AI Companion 🤖. A diferencia de un simple chatbot, un AI Companion puede conversar de forma más natural, recordar información, adaptarse a cada usuario y ayudarte en tareas reales, en tiempo real. Aprenderás a construir el tuyo usando herramientas como n8n, Supabase, Telegram y modelos de IA como ChatGPT 🧠. Todo de forma práctica, sin necesidad de ser experto en programación, siempre considerando los retos éticos y técnicos que vienen con esta tecnología.</p>
 <p>Prepárate para crear un asistente que potencie tus ideas y te acompañe en el día a día 🚀.</p>
 </section>
 <section id="qué-es-un-ai-companion" class="level1">
 <h1>¿Qué es un AI Companion? 🤖</h1>
-<p>En palabras simples, un Un AI Companion es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.</p>
+<p>En palabras simples, un <strong>AI Companion</strong> es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.</p>
 <p>La idea de aprender a crear un AI Companion, viene de poder entregar una herramienta concreta para fortaceler tu trabajo o el trabajo de alguien que no tiene o conoce herramientas para fortalecer o mejorar su propuesta de valor.</p>
 <blockquote class="blockquote">
-<p><em>“Un AI Companion se define como un asistente inteligente avanzado y un aliado digital, diseñado para optimizar las interacciones y proporcionar soporte activo, permitiendo a los usuarios enfocarse en tareas más importantes.”</em> Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa. Un ejemplo prominente de esta categoría es el “AI Companion” de Zoom, una apuesta por revolucionar la comunicación digital a través de un asistente inteligente que aporta claridad y eficiencia a las reuniones.</p>
+<p><em>“Un AI Companion se define como un asistente inteligente avanzado y un aliado digital, diseñado para optimizar las interacciones y proporcionar soporte activo, permitiendo a los usuarios enfocarse en tareas más importantes.”</em> Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa.</p>
 </blockquote>
 <section id="casos-de-uso-reales-y-posibles-aplicaciones" class="level2">
 <h2 class="anchored" data-anchor-id="casos-de-uso-reales-y-posibles-aplicaciones">Casos de uso reales y posibles aplicaciones</h2>
@@ -187,9 +189,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Atención al cliente 24/7.</li>
 <li>Tutor académico personalizado.</li>
 <li>Bot de agenda y recordatorios.</li>
-<li>Concierge de viajes, etc.</li>
+<li>Asistente de viajes, etc.</li>
 </ul>
-<p>Para poder aprender como acercarnos al concepto de AI Companion, buscaremos un proyecto aplicado con herramientas de facil uso y te ensenare paso a paso a usarlas.</p>
+<p>Para poder aprender como acercarnos al concepto de AI Companion, buscaremos un proyecto aplicado con herramientas de fácil uso y te enseñar paso a paso a usarlas.</p>
 </section>
 </section>
 <section id="arquitectura-general-del-proyecto" class="level1">
@@ -300,13 +302,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

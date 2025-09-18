@@ -2,6 +2,7 @@
   {
     "listing": "/tutos.html",
     "items": [
+      "/tuto_entero/01_tallerdebolsillo/index.html",
       "/tuto_entero/AI-Companion/index.html",
       "/tuto_entero/docker/index.html"
     ]

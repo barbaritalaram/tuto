@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-234273d1456647dabc34a594ac50e507.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a6e161b2431e1f94a14e0f5d32135a3c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-874d1bfa320fb7f528aae4768aebe376.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9cc70410b8ee353640be0db64478bab4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -141,7 +142,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">TUTO</span>
@@ -192,7 +194,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YWdlbnRl">agente <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXNpc3RlbnRl">asistente <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29tcGFuaW9u">companion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RG9ja2Vy">Docker <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bjhu">n8n <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHV0byUyMEVudGVybw==">Tuto Entero <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YWdlbnRl">agente <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YXNpc3RlbnRl">asistente <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2VyZWJyb2RpZ2l0YWw=">cerebrodigital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29tcGFuaW9u">companion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RG9ja2Vy">Docker <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bjhu">n8n <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmVvcmVuYWNpbWllbnRv">Neorenacimiento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHV0byUyMEVudGVybw==">Tuto Entero <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -221,7 +223,7 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tutos Disponibles
+<span class="screen-reader-only">Nota</span>Tutos Disponibles
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -234,7 +236,38 @@ Tutos Disponibles
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="YWdlbnRlJTJDYXNpc3RlbnRlJTJDQUklMkNjb21wYW5pb24lMkNuOG4=" data-listing-date-sort="1752105600000" data-listing-file-modified-sort="1753041516882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="g-col-1" data-index="0" data-categories="YWdlbnRlJTJDYXNpc3RlbnRlJTJDQUklMkNjZXJlYnJvZGlnaXRhbCUyQ05lb3JlbmFjaW1pZW50bw==" data-listing-date-sort="1752969600000" data-listing-file-modified-sort="1758200155470" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
+<a href="./tuto_entero/01_tallerdebolsillo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hack Yourself: El Prompt Eres Tú
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdlbnRl'); return false;">agente</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXNpc3RlbnRl'); return false;">asistente</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2VyZWJyb2RpZ2l0YWw='); return false;">cerebrodigital</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmVvcmVuYWNpbWllbnRv'); return false;">Neorenacimiento</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Barbarita Lara
+</div>
+<div class="listing-date">
+20 jul 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="YWdlbnRlJTJDYXNpc3RlbnRlJTJDQUklMkNjb21wYW5pb24lMkNuOG4=" data-listing-date-sort="1752105600000" data-listing-file-modified-sort="1758200155471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
 <a href="./tuto_entero/AI-Companion/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -265,7 +298,7 @@ Barbarita Lara
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="RG9ja2VyJTJDVHV0byUyMEVudGVybw==" data-listing-date-sort="1737331200000" data-listing-file-modified-sort="1753041516926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<div class="g-col-1" data-index="2" data-categories="RG9ja2VyJTJDVHV0byUyMEVudGVybw==" data-listing-date-sort="1737331200000" data-listing-file-modified-sort="1758200155515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
 <a href="./tuto_entero/docker/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -344,13 +377,14 @@ Mr.&nbsp;Tuto
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
