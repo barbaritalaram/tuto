@@ -22,6 +22,8 @@ website:
             file: tuto_entero/docker/index.qmd
           - text: "AI Companion"
             file: tuto_entero/AI-Companion/index.qmd
+          - text: "Hack Yourself: El Prompt Eres Tú"
+            file: tuto_entero/01_tallerdebolsillo/index.qmd
 
 
   page-footer:
