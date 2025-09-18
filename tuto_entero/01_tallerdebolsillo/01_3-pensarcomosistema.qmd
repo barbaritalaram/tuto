@@ -1,0 +1,45 @@
+---
+title: "Capítulo 1 · Hack Yourself: Diseña tu Sistema Interior"
+subtitle: "Tu mente como sistema, tu archivo como legado en expansión"
+author: "Barbarita Lara"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    df-print: paged
+---
+
+# 1.3 Pensar como sistema
+
+## La teoría de sistemas (breve historia)
+
+Desde Platón a Maturana, la teoría de sistemas propone que nada existe en aislamiento. Todo sistema tiene entradas, procesos, salidas y retroalimentación.
+
+## Tú como sistema
+
+| Elemento      | Ejemplos                                   |
+|---------------|--------------------------------------------|
+| Entradas      | Ideas, estímulos, relaciones, datos        |
+| Procesos      | Emociones, hábitos, intuición, pensamiento |
+| Salidas       | Decisiones, obras, acciones                |
+| Retroalimentación | Reacciones del entorno, aprendizajes     |
+
+```mermaid
+graph TD
+  A[Entradas] --> B[Procesos]
+  B --> C[Salidas]
+  C --> D[Retroalimentación]
+  D --> B
+```
+
+## Ejercicio: Diagrama de tu máquina de pensar
+
+1. Abre [Kinopio](https://kinopio.club/)
+2. Mapea tus entradas, procesos, salidas y feedback
+3. Usa flechas y palabras clave para conectarlos
+4. Colorea lo que quieras transformar, potenciar o eliminar
+
+
+<a href="01_2-elneorenacimientoytu.qmd" class="btn btn-primary">Anterior</a>
+<a href="01_4" class="btn btn-primary">Siguiente</a>

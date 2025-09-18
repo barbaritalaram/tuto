@@ -13,5 +13,8 @@ No te desanimes y sigue adelante que eres genial en esto 😊. Si algo no te va,
 
 Chau!
 
+> _“Tú eres el prompt. Tú diseñas tu sistema. Tú decides tu propósito.”_
+
+
 <a href="08-dockercompose.qmd" class="btn btn-primary">Anterior</a>
 <a href="../../index.qmd" class="btn btn-primary">Siguiente</a>

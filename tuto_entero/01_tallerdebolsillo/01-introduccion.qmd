@@ -1,0 +1,34 @@
+---
+title: "Capítulo 1 · Hack Yourself: Diseña tu Sistema Interior"
+subtitle: "Tu mente como sistema, tu archivo como legado en expansión"
+author: "Barbarita Lara"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    df-print: paged
+---
+
+> _“Tú eres el prompt. Tú diseñas tu sistema. Tú decides tu propósito.”_
+
+# 1.1 Introducción: El Mapa Invisible
+
+## ¿Qué es este tutorial?
+
+Este no es un tutorial técnico sobre IA. Es un viaje personal para rediseñar tu sistema interior con herramientas analógicas y digitales, con sentido, agencia y propósito.
+
+## ¿Por qué rediseñar tu sistema interior?
+
+Vivimos en tiempos donde la atención se fragmenta, la creatividad se terceriza y el conocimiento se dispersa. Este capítulo es un primer paso para construir tu **cerebro digital neorenacentista**.
+
+## Qué aprenderás en este capítulo
+
+- Pensar como sistema
+- Conectar entradas, procesos, salidas y feedback
+- Usar herramientas como Obsidian y Kinopio para pensar mejor
+
+
+
+<a href="index.qmd" class="btn btn-primary">Anterior</a>
+<a href="01.2-elneorenacimientoytu.qmd" class="btn btn-primary">Siguiente</a>

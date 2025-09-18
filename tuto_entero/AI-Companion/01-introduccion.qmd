@@ -10,33 +10,33 @@ format:
 # Introduccion
 
 La inteligencia artificial (IA) ya no es cosa del futuro —hoy está presente en casi todo: desde asistentes de voz en tu celular 📱 hasta sistemas que gestionan empresas enteras 🏢.
-En este curso vamos a explorar una herramienta poderosa y cada vez más común: el AI Companion 🤖. A diferencia de un simple chatbot, un AI Companion puede conversar de forma más natural, recordar información, adaptarse a cada usuario y ayudarte en tareas reales, en tiempo real.
+En este tuto 🍗, vamos a explorar una herramienta poderosa y cada vez más común: el AI Companion 🤖. A diferencia de un simple chatbot, un AI Companion puede conversar de forma más natural, recordar información, adaptarse a cada usuario y ayudarte en tareas reales, en tiempo real.
 Aprenderás a construir el tuyo usando herramientas como n8n, Supabase, Telegram y modelos de IA como ChatGPT 🧠. Todo de forma práctica, sin necesidad de ser experto en programación, siempre considerando los retos éticos y técnicos que vienen con esta tecnología.
 
 Prepárate para crear un asistente que potencie tus ideas y te acompañe en el día a día 🚀.
 
 # ¿Qué es un AI Companion? 🤖
 
-En palabras simples, un Un AI Companion es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.
+En palabras simples, un **AI Companion** es un asistente virtual inteligente que puede conversar contigo, ayudarte con tareas y adaptarse a tus necesidades. Usa inteligencia artificial para entender lo que dices, recordar información útil y darte respuestas personalizadas en tiempo real.
 
 La idea de aprender a crear un AI Companion, viene de poder entregar una herramienta concreta para fortaceler tu trabajo o el trabajo de alguien que no tiene o conoce herramientas para fortalecer o mejorar su propuesta de valor.
 
-
 > *"Un AI Companion se define como un asistente inteligente avanzado y un aliado digital, diseñado para optimizar las interacciones y proporcionar soporte activo, permitiendo a los usuarios enfocarse en tareas más importantes."*
-Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa. Un ejemplo prominente de esta categoría es el "AI Companion" de Zoom, una apuesta por revolucionar la comunicación digital a través de un asistente inteligente que aporta claridad y eficiencia a las reuniones.   
+Va más allá de la simple automatización de tareas, buscando comprender contextos y ofrecer información precisa. 
 
 ## Casos de uso reales y posibles aplicaciones
 
 - Atención al cliente 24/7.
 - Tutor académico personalizado.
 - Bot de agenda y recordatorios.
-- Concierge de viajes, etc.
+- Asistente de viajes, etc.
 
-Para poder aprender como acercarnos al concepto de AI Companion, buscaremos un proyecto aplicado con herramientas de facil uso y te ensenare paso a paso a usarlas.
+Para poder aprender como acercarnos al concepto de AI Companion, buscaremos un proyecto aplicado con herramientas de fácil uso y te enseñar paso a paso a usarlas.
 
 # Arquitectura general del proyecto
 
 Telegram ⇄ n8n (flujos) ⇄ Supabase (BD) ⇄ OpenAI/API externas
+
 
 - **Telegram**: canal de interacción en tiempo real.
 - **n8n**: orquestador visual que recibe mensajes, decide y responde.

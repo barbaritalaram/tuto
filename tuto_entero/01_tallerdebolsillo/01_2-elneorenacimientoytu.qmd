@@ -1,0 +1,32 @@
+---
+title: "Capítulo 1 · Hack Yourself: Diseña tu Sistema Interior"
+subtitle: "Tu mente como sistema, tu archivo como legado en expansión"
+author: "Barbarita Lara"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    df-print: paged
+---
+
+# 1.2 El Neorenacimiento y tú
+
+## Qué fue el Renacimiento
+
+Un período donde el arte, la ciencia y el pensamiento humanista florecieron. Figuras como Da Vinci unificaban disciplinas y registraban su pensamiento en cuadernos complejos y visuales.
+
+## ¿Por qué estamos viviendo un Neorenacimiento?
+
+Hoy tenemos:
+- Acceso masivo al conocimiento (como la imprenta)
+- Exploración interdisciplinaria (bioarte, neurodiseño)
+- Tecnología con propósito humano (IA ética)
+- Crisis globales que nos empujan a repensarlo todo
+
+## El nuevo humanismo digital
+
+El centro vuelve a ser el ser humano. Pero esta vez, con la ayuda de algoritmos, redes, datos y sistemas de pensamiento expandido.
+
+<a href="01-introduccion.qmd" class="btn btn-primary">Anterior</a>
+<a href="01_2-elneorenacimientoytu.qmd" class="btn btn-primary">Siguiente</a>

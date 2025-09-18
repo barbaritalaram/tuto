@@ -16,12 +16,12 @@ format:
         text: "Página Siguiente"
 ---
 
-## Descripción del Curso
-En este curso aprenderás a crear tu propio AI Companion 🤖 —un asistente virtual inteligente— combinando herramientas modernas sin necesidad de ser un experto en programación. Usaremos n8n 🔗, una potente plataforma de automatización visual, para simplificar flujos de trabajo y conectar servicios de manera intuitiva. Además, integraremos una base de datos en Supabase 🗃️, donde gestionaremos la información que nuestro asistente utilizará para responder de forma dinámica y personalizada.
+## Descripción del Tuto
+En este tuto 🍗 aprenderás a crear tu propio AI Companion 🤖 —un asistente virtual inteligente— combinando herramientas modernas sin necesidad de ser un experto en programación. Usaremos n8n 🔗, una potente plataforma de automatización visual, para simplificar flujos de trabajo y conectar servicios de manera intuitiva. Además, integraremos una base de datos en Supabase 🗃️, donde gestionaremos la información que nuestro asistente utilizará para responder de forma dinámica y personalizada.
 
 Uno de los aspectos más emocionantes del curso es que aprenderás a conectar tu AI Companion con Telegram 💬, permitiendo una interacción fluida y en tiempo real desde tu celular 📱 o computadora 💻. De esta forma, podrás conversar directamente con tu asistente, probar funcionalidades y aplicar mejoras al instante.
 
-A lo largo del curso exploraremos conceptos clave de la IA conversacional 🗣️, automatización ⚙️, bases de datos en la nube ☁️ y diseño de flujos inteligentes. También trabajaremos con APIs externas 🌐, lógica de decisiones y almacenamiento de contexto para enriquecer las respuestas del asistente.
+A lo largo del tuto 🍗 exploraremos conceptos clave de la IA conversacional 🗣️, automatización ⚙️, bases de datos en la nube ☁️ y diseño de flujos inteligentes. También trabajaremos con APIs externas 🌐, lógica de decisiones y almacenamiento de contexto para enriquecer las respuestas del asistente.
 
 Al finalizar, tendrás un sistema funcional y escalable 🚀, listo para ser adaptado a casos reales como atención al cliente, asistentes educativos, bots personales y mucho más 🧑‍💼📚.
 

@@ -1,0 +1,89 @@
+---
+title: "Hack Yourself: El Prompt Eres Tú"
+subtitle: "Un viaje neorenacentista para crear con propósito en la era de la IA"
+author: "Barbarita Lara"
+categories: ["agente", "asistente","AI", "cerebrodigital", "Neorenacimiento"]
+date: "2025-07-20"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    df-print: paged
+---
+
+> _“Este no es un curso para aprender a usar IA. Es un viaje para reaprender a ser humano.”_
+
+## 🧭 Descripción general del Tuto 🍗
+
+**Hack Yourself: El Prompt Eres Tú** es un tutorial largo dividido en capítulos prácticos y reflexivos que nace del Taller de Bolsillo dictado en junio de 2025. Inspirado en Da Vinci y el Renacimiento, mezcla ciencia, arte, filosofía y tecnología para ayudarte a diseñar tu propio **cerebro digital** y explorar cómo puedes pensar, crear y decidir con propósito en tiempos de IA.
+
+~~No necesitas conocimientos técnicos~~ **la verdad es que sí**...pero intentaré de explicarte paso a paso como ir avanzando. Lo importante es que despiertes tu curiosidad, que tengas ganas de pensar diferente y aprender.
+
+---
+
+**Nota:** En el Taller de Bolsillo me dieron el feedback de que en la descripción debería decir sobre la necesidad de tener conocimiento técnicos, me disculpo si no fui más clara y por no alcanzar a ver todo lo prometido o habernos puesto más técnicos, pero intenté curbrir los requerimientos que iban llegando cada semana. My bad! 
+
+La verdad, es que más allá de las herramientas que veremos en todo este Tuto Largo y del conocimiento técnico que uno tenga, lo que se busca es mostrar la importancia de un buen contexto para conseguir mejores resultados a la hora de resolver problemas o enfrentar la vida, la importancia de la creatividad para lograr desarrollarnos más, así como, lo fundamental que es dejar un patrimonio digital, de nuestra existencia. 
+
+Por eso estoy haciendo este tutorial :,D
+
+---
+
+## 📚 Índice de capítulos
+
+### Capítulo 1 · Diseña tu Sistema Interior
+> Redescubre tu mente como un sistema y comienza a construir tu archivo de pensamiento expandido.
+
+- 1.1 Introducción: El Mapa Invisible  
+- 1.2 El Neorenacimiento y tú  
+- 1.3 Pensar como sistema  
+- 1.4 Da Vinci, cuadernos y cerebros extendidos  
+- 1.5 Herramientas para construir tu cerebro digital  
+- 1.6 Bitácora y cierre  
+
+➡️ [Ir al capítulo 1](01-introduccion.qmd)
+
+---
+
+### Capítulo 2 · El Prompt Eres Tú *(próximamente)*
+> Aprende a conversar con IA desde tu identidad y diseña tu primer IA-companion.
+
+---
+
+### Capítulo 3 · Diseña tu Legado Digital *(próximamente)*
+> Explora tus datos personales, visualízalos con sentido y construye tu patrimonio digital con propósito.
+
+---
+
+## ✨ ¿Cómo usar este tutorial?
+
+- Sigue cada capítulo como una etapa de un viaje
+- Realiza los ejercicios prácticos
+- Documenta tu aprendizaje en una bitácora viva
+- Usa las herramientas sugeridas para construir y expandir tu sistema
+
+---
+
+## 🛠 Herramientas sugeridas
+
+- Obsidian + Excalidraw
+- Kinopio
+- Miro
+- Notion
+- Cuaderno analógico
+- n8n, ChatGPT, Gemini (en capítulos posteriores)
+
+---
+
+## 🌀 Manifiesto
+
+Tú eres el prompt.  
+Tú diseñas tu sistema.  
+Tú decides tu propósito.
+
+¡Bienvenid@ al Neorenacimiento!
+
+
+
+<a href="01-introduccion.qmd" class="btn btn-primary">Siguiente</a>
