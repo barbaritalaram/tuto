@@ -30,13 +30,25 @@ Aprende las bases de Docker para que puedas contenerizar tus apps.
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.curso-card}
-![](./images/AiCompanion.png)
+![](./images/AICompanion.png)
 
 ### AI Companion
 
 Aprende a crear un asistente de IA personalizado usando n8n y tecnologías modernas.
 
 <a href="/tuto_entero/AI-Companion/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.curso-card}
+![](./images/prompterestu.png)
+
+### Hack Yourself: El Prompt Eres Tú
+
+Un viaje neorenacentista para crear con propósito en la era de la IA.
+
+<a href="/tuto_entero/01_tallerdebolsillo/index.html" class="btn btn-outline-primary mt-2">Ver Tuto →</a>
 :::
 :::
 :::

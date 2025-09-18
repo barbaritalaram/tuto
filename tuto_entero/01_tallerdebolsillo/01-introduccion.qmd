@@ -10,7 +10,6 @@ format:
     df-print: paged
 ---
 
-> _“Tú eres el prompt. Tú diseñas tu sistema. Tú decides tu propósito.”_
 
 # 1.1 Introducción: El Mapa Invisible
 
